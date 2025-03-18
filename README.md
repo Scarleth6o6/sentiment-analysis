@@ -13,10 +13,13 @@ The dataset used for this project consists of a labeled set of text data, where 
 Tokenization: Splitting the text into words or tokens.
 Stopword Removal: Removing common words that don’t contribute meaningful information.
 Lemmatization: Reducing words to their root form.
+
 2.- Feature Extraction:
 TF-IDF (Term Frequency-Inverse Document Frequency): Converts the text data into numerical features that reflect the importance of terms in the dataset.
+
 3.- Modeling:
 A variety of machine learning algorithms were tested, including Naive Bayes, Logistic Regression, and Random Forests. The best performing model was selected for further optimization.
+
 4.- Evaluation:
 The model’s performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
 ## Requirements
@@ -29,11 +32,13 @@ nltk
 matplotlib
 seaborn
 ## Installation
+
 1.- Clone the repository:
 bash
 Copiar
 Editar
 git clone https://github.com/your-username/text-classification-project.git
+
 2.- Navigate into the project folder:
 ``` bash
 cd text-classification-project
@@ -42,7 +47,7 @@ cd text-classification-project
 ``` bash
 pip install -r requirements.txt
 ```
-Usage
+## Usage
 To train and evaluate the model, run the following command:
 ``` bash
 python train_model.py

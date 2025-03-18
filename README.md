@@ -35,11 +35,11 @@ The dataset used for this project consists of a labeled set of text data, where 
 ### Installation
 1.- Clone the repository:
 ```bash
-git clone https://github.com/your-username/text-classification-project.git
+git clone https://github.com/Scarleth6o6/sentiment-analysis.git
 ```
 2.- Navigate into the project folder:
 ``` bash
-cd text-classification-project
+cd sentiment-analysis
 ```
 3.- Install the required dependencies:
 ``` bash
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 ### Usage
 To train and evaluate the model, run the following command:
 ``` bash
-python train_model.py
+python text_classifier.ipynb
 ```
 This will train the model on the provided dataset and output evaluation metrics. You can also modify the script to test the model on new text data.
 

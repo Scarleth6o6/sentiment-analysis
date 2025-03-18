@@ -10,35 +10,33 @@ The dataset used for this project consists of a labeled set of text data, where 
 
 ## Methodology
 1.- Data Pre-processing:
-Tokenization: Splitting the text into words or tokens.
-Stopword Removal: Removing common words that don’t contribute meaningful information.
-Lemmatization: Reducing words to their root form.
+- Tokenization: Splitting the text into words or tokens.
+- Stopword Removal: Removing common words that don’t contribute meaningful information.
+- Lemmatization: Reducing words to their root form.
 
 2.- Feature Extraction:
-TF-IDF (Term Frequency-Inverse Document Frequency): Converts the text data into numerical features that reflect the importance of terms in the dataset.
+- TF-IDF (Term Frequency-Inverse Document Frequency): Converts the text data into numerical features that reflect the importance of terms in the dataset.
 
 3.- Modeling:
-A variety of machine learning algorithms were tested, including Naive Bayes, Logistic Regression, and Random Forests. The best performing model was selected for further optimization.
+- A variety of machine learning algorithms were tested, including Naive Bayes, Logistic Regression, and Random Forests. The best performing model was selected for further optimization.
 
 4.- Evaluation:
-The model’s performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
+- The model’s performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
 ## Requirements
-Python 3.x
-Libraries:
-pandas
-numpy
-scikit-learn
-nltk
-matplotlib
-seaborn
+- Python 3.x
+- Libraries:
+- pandas
+- numpy
+- scikit-learn
+- nltk
+- matplotlib
+- seaborn
 ## Installation
 
 1.- Clone the repository:
-bash
-Copiar
-Editar
+```bash
 git clone https://github.com/your-username/text-classification-project.git
-
+```
 2.- Navigate into the project folder:
 ``` bash
 cd text-classification-project
@@ -58,10 +56,10 @@ This will train the model on the provided dataset and output evaluation metrics.
 The model achieved an accuracy of X% on the test set, demonstrating its ability to classify text accurately. Further optimizations, such as hyperparameter tuning, could improve the model’s performance.
 
 ## Future Work
-Experiment with deep learning models (e.g., LSTM, BERT) for better performance.
-Improve data preprocessing techniques to handle noisy text data.
-Extend the model to handle multilingual text classification.
+- Experiment with deep learning models (e.g., LSTM, BERT) for better performance.
+- Improve data preprocessing techniques to handle noisy text data.
+- Extend the model to handle multilingual text classification.
 
 ## Acknowledgments
-Special thanks to the authors of the dataset.
-Inspiration from online tutorials and machine learning communities.
+- Special thanks to the authors of the dataset.
+- Inspiration from online tutorials and machine learning communities.

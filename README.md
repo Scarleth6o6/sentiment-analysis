@@ -1,10 +1,17 @@
-## Text Classification Project
-### Overview
-This project focuses on developing a text classification model using machine learning techniques to categorize text data into predefined classes. The objective of this model is to accurately classify text inputs, leveraging various pre-processing, feature extraction, and model training steps.
+# Sentiment Analysis with Machine Learning
+This project applies Machine Learning models to classify sentiment in text reviews. The goal is to compare the performance of different models and analyze their effectiveness in predicting positive and negative sentiments.
 
-### Problem Statement
-The project aims to create a robust text classification system that can categorize textual data into specific categories. This model can be applied to various industries and tasks, such as sentiment analysis, spam detection, or categorizing news articles.
 
+### Project Overview
+- **Model 1**: Shows good performance in capturing sentiment nuances.
+- **Model 2**: Works reasonably well but lacks sensitivity to sentiment subtleties.
+- **Model 3**: Demonstrates overfitting, performing well on training data but poorly on unseen data.
+
+### Features
+- Data preprocessing (tokenization, vectorization, text cleaning)
+- Sentiment classification using different models
+- Performance evaluation using metrics like Accuracy, F1-Score, and ROC-AUC
+  
 ### Dataset
 The dataset used for this project consists of a labeled set of text data, where each text sample is associated with a category label. This data is pre-processed and split into training and testing datasets.
 

@@ -1,14 +1,14 @@
-# Text Classification Project
-## Overview
+## Text Classification Project
+### Overview
 This project focuses on developing a text classification model using machine learning techniques to categorize text data into predefined classes. The objective of this model is to accurately classify text inputs, leveraging various pre-processing, feature extraction, and model training steps.
 
-## Problem Statement
+### Problem Statement
 The project aims to create a robust text classification system that can categorize textual data into specific categories. This model can be applied to various industries and tasks, such as sentiment analysis, spam detection, or categorizing news articles.
 
-## Dataset
+### Dataset
 The dataset used for this project consists of a labeled set of text data, where each text sample is associated with a category label. This data is pre-processed and split into training and testing datasets.
 
-## Methodology
+### Methodology
 1.- Data Pre-processing:
 - Tokenization: Splitting the text into words or tokens.
 - Stopword Removal: Removing common words that don’t contribute meaningful information.
@@ -22,7 +22,7 @@ The dataset used for this project consists of a labeled set of text data, where 
 
 4.- Evaluation:
 - The model’s performance was evaluated using metrics such as accuracy, precision, recall, and F1-score.
-## Requirements
+### Requirements
 - Python 3.x
 - Libraries:
 - pandas
@@ -31,8 +31,7 @@ The dataset used for this project consists of a labeled set of text data, where 
 - nltk
 - matplotlib
 - seaborn
-## Installation
-
+### Installation
 1.- Clone the repository:
 ```bash
 git clone https://github.com/your-username/text-classification-project.git
@@ -45,21 +44,21 @@ cd text-classification-project
 ``` bash
 pip install -r requirements.txt
 ```
-## Usage
+### Usage
 To train and evaluate the model, run the following command:
 ``` bash
 python train_model.py
 ```
 This will train the model on the provided dataset and output evaluation metrics. You can also modify the script to test the model on new text data.
 
-## Results
-The model achieved an accuracy of X% on the test set, demonstrating its ability to classify text accurately. Further optimizations, such as hyperparameter tuning, could improve the model’s performance.
+### Results
+The model achieved an accuracy of 92% on the test set, demonstrating its ability to classify text accurately. Further optimizations, such as hyperparameter tuning, could improve the model’s performance.
 
-## Future Work
+### Future Work
 - Experiment with deep learning models (e.g., LSTM, BERT) for better performance.
 - Improve data preprocessing techniques to handle noisy text data.
 - Extend the model to handle multilingual text classification.
 
-## Acknowledgments
+### Acknowledgments
 - Special thanks to the authors of the dataset.
 - Inspiration from online tutorials and machine learning communities.

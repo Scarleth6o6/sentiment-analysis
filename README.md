@@ -1,7 +1,7 @@
 # SentimentAI: Movie Review Sentiment Classification
 
 ## 📌 Project Overview
-Film Junky Union, a modern and innovative community for classic movie enthusiasts, is developing a system to filter and categorize movie reviews. The goal of this project is to train a Machine Learning model that can automatically detect negative reviews from a dataset of IMDB movie reviews labeled with sentiment polarity (positive or negative).
+Film Junky Union, a modern and innovative community for classic movie enthusiasts, is developing a system to filter and categorize movie reviews. The goal of this project is to train a Machine Learning model that can automatically detect negative reviews from a dataset of IMDB movie reviews labeled with sentiment polarity (positive or negative). 
 
 The target performance for this model is an **F1 score of at least 0.85**.
 
@@ -32,17 +32,19 @@ Three different models were trained and evaluated:
 pip install -r requirements.txt
 ```
 
-### 2️⃣ Run the Model
+### 2️⃣ Open the Jupyter Notebook
+Run the following command to start Jupyter Notebook and open the project notebook:
 ```bash
-python sentiment_analysis.py
+jupyter notebook
 ```
+Then, open the appropriate `.ipynb` file and execute the cells to train and analyze the models.
 
 ## 📁 Repository Structure
 ```
 📂 SentimentAI
 │-- 📂 data/                 # Dataset files
 │-- 📂 models/               # Trained models
-│-- 📂 notebooks/            # Jupyter notebooks for analysis & Main script for model training & evaluation
+│-- 📂 notebooks/            # Jupyter notebooks for analysis and training
 │-- requirements.txt         # List of dependencies
 │-- README.md                # Project documentation
 ```
